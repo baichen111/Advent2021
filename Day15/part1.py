@@ -17,6 +17,7 @@ if __name__ == '__main__':
     for i in range(len(dp)):
         for j in range(len(dp[i])):
             dp[i][j] += m[i][j]
+            print(dp)
             if i > 0 and j > 0 :
                 dp[i][j] += min(dp[i][j-1],dp[i-1][j])
             elif i > 0 :
