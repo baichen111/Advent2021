@@ -41,7 +41,7 @@ if __name__ == '__main__':
         if v >= 2:
             s += 1
 
-    print(s)  #5576
+    print(s)  #5576 final answer
 
 
 
