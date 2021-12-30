@@ -6,5 +6,5 @@ f:{d:()!();k:key x;
   d}
 
 s:sum f/[256;g]
-show s
+show s  / 1572358335990 final answer
 exit 0
