@@ -24,6 +24,6 @@ run:{[m]
     index:adjind except ind0;  / remove neighbor indice already in 0s indice (ind)
     {$[not .[x;y]=0;[p:.[x;y;+;1];$[.[p;y]>9;.[p;y;:;0];p]];x]}/[m;index]   /  update all neighbor values and return a final matrix
     }
-run[100;m]
+run/[100;m]
 
 
